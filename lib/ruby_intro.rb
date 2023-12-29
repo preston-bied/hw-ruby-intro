@@ -3,7 +3,7 @@
 # Part 1
 
 def sum(arr)
-  0
+  arr.sum(0)
 end
 
 def max_2_sum(arr)
