@@ -7,7 +7,11 @@ def sum(arr)
 end
 
 def max_2_sum(arr)
-  # YOUR CODE HERE
+  if arr.length() == 0
+    0
+  elsif arr.length() == 1
+    arr[0]
+  end
 end
 
 def sum_to_n?(arr, number)
